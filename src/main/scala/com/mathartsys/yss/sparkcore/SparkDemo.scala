@@ -1,6 +1,7 @@
-package com.mathartsys.yss
+package com.mathartsys.yss.sparkcore
 
-import org.apache.spark._
+import org.apache.spark.{SparkConf, SparkContext}
+
 object SparkDemo {
   def main(args: Array[String]): Unit = {
     System.setProperty("hadoop.home.dir", "D:\\Tools\\Hadoop\\hadoop-2.6.0")
